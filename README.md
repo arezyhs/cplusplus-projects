@@ -1,25 +1,63 @@
-# Breach the Fortress Game
+# C++ Games Collection
 
-## Introduction
+## Overview
 
-Welcome to the "Breach the Fortress" game! This console-based game allows players to breach a fortress using a strategic combination of cannons. Your goal is to bring down the fortress by pairing the explosion values of two cannons until the fortress is breached.
+This repository contains a collection of C++ console-based games, including strategy, puzzle, and guessing games. All games are designed to be simple, educational, and fun to play.
 
-## How to Play
+## Games Included
 
-1. **Input Cannons:** Enter the number of cannons you want to bring to breach the fortress (maximum is 10).
-2. **Explosion Values:** Input the explosion value for each cannon. The maximum explosion value for each cannon is 500.
-3. **Breach Strategy:** The game will attempt to breach the fortress by combining the explosion values of consecutive cannons.
-4. **Outcome:** Find out whether you successfully breached the mighty fortress or if you failed in your attempt.
+### 1. 🏰 Breach the Fortress
+A strategic game where you use cannons to breach a fortress. Combine explosion values of consecutive cannons to overcome the fortress defense.
 
-## How to Run
+**Location:** `breach-the-fortress/`
+**Features:** 
+- Strategic gameplay with up to 10 cannons
+- Random fortress defense values (750-1250)
+- Recursive algorithm for checking combinations
 
-1. Open a terminal in the project directory.
-2. Compile the code (if needed): `g++ your_main_file.cpp -o breach_game`
-3. Run the executable: `./breach_game`
+### 2. 🔢 Number Guessing Game  
+A classic guessing game where players try to guess a random number between 1-100 within 15 attempts.
+
+**Location:** `number-guessing-game/`
+**Features:**
+- 15 attempts to guess correctly
+- Real-time feedback (too high/too low)
+- Support for both English and Indonesian
+
+### 3. 🗼 Hanoi Tower
+The classic Tower of Hanoi puzzle implementation with recursive solution display.
+
+**Location:** `hanoi-tower/`
+**Features:**
+- Variable number of disks
+- Step-by-step solution display
+- Educational recursive algorithm demonstration
+
+## Project Structure
+
+```
+├── breach-the-fortress/
+│   ├── breach-the-fortress.cpp
+│   └── README.md
+├── number-guessing-game/
+│   ├── number-guessing-game.cpp
+│   └── README.md
+├── hanoi-tower/
+│   ├── hanoi-tower.cpp
+│   └── README.md
+├── build-all.bat
+└── README.md
+```
+
+## How to Run Any Game
+
+1. Navigate to the specific game directory
+2. Compile the C++ file: `g++ [filename].cpp -o [output_name]`
+3. Run the executable: `./[output_name]` (Linux/Mac) or `[output_name].exe` (Windows)
 
 ## Author
 - @arezyhs
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
