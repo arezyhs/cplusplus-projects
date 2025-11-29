@@ -34,6 +34,12 @@ cd rpg-game
 g++ final-project-adventure-rpg.cpp -o final-project-adventure-rpg.exe
 cd ..
 
+echo Building ID Generator Calculator...
+cd id-generator-calc
+g++ id-generator-supir-plus-pesanan.cpp -o id-generator-supir-plus-pesanan.exe
+g++ id-generator-supir-saja.cpp -o id-generator-supir-saja.exe
+cd ..
+
 echo.
 echo All projects have been built successfully!
 echo.
@@ -46,5 +52,7 @@ echo - Network Traffic Monitoring (No Graph): network-traffic-monitoring\network
 echo - Library Management: library-management\library-management.exe
 echo - Library Data Practice: library-management\praktikum-akhir-data.exe
 echo - RPG Adventure Game: rpg-game\final-project-adventure-rpg.exe
+echo - ID Generator (Driver + Order): id-generator-calc\id-generator-supir-plus-pesanan.exe
+echo - ID Generator (Driver Only): id-generator-calc\id-generator-supir-saja.exe
 echo.
 pause

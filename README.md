@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains a comprehensive collection of C++ console-based applications, including games, network simulations, data management systems, and educational projects. All applications are designed to be simple, educational, and demonstrate various programming concepts.
+This repository contains a comprehensive collection of C++ console-based applications, including games, network simulations, data management systems, algorithmic calculators, and educational projects. All applications are designed to be simple, educational, and demonstrate various programming concepts and data structures.
 
 ## Projects Included
 
@@ -63,6 +63,17 @@ Final project RPG game with character development and adventure mechanics.
 - RPG mechanics implementation
 - Interactive storytelling
 
+### 7. 🆔 ID Generator Calculator
+Advanced ID generation system for data structures lab with specific algorithmic rules for creating driver and order IDs.
+
+**Location:** `id-generator-calc/`
+**Features:**
+- Driver ID generation based on name, gender, and birthdate
+- Order ID generation including license plate and destination data
+- Collision handling with automatic ID incrementing
+- Support for both driver-only and driver+order ID generation
+- Educational implementation of data structure algorithms
+
 ## Project Structure
 
 ```
@@ -86,6 +97,10 @@ Final project RPG game with character development and adventure mechanics.
 │   └── README.md
 ├── rpg-game/
 │   ├── final-project-adventure-rpg.cpp
+│   └── README.md
+├── id-generator-calc/
+│   ├── id-generator-supir-plus-pesanan.cpp
+│   ├── id-generator-supir-saja.cpp
 │   └── README.md
 ├── build-all.bat
 └── README.md
@@ -120,6 +135,11 @@ g++ library-management.cpp -o library.exe
 cd rpg-game
 g++ final-project-adventure-rpg.cpp -o rpg.exe
 ./rpg.exe
+
+# ID Generator Calculator
+cd id-generator-calc
+g++ id-generator-supir-plus-pesanan.cpp -o id-gen-full.exe
+./id-gen-full.exe
 ```
 
 ## Author
